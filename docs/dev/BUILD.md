@@ -36,6 +36,7 @@ On Red Hat-based Linux: `sudo dnf install libX11-devel libxkbfile-devel libsecre
 
 1. Go to `marktext` folder
 2. Install dependencies: `yarn install` or `yarn install --frozen-lockfile`
+    - Note: in case  `yarn install` has issues, first do `npx update-browserslist-db@latest` and then  `yarn install` again
 3. Build MarkText binaries and packages: `yarn run build`
 4. MarkText binary is located under `build` folder
 
